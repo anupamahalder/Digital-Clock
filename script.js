@@ -6,6 +6,11 @@ function showTime(){
     let second = date.getSeconds();
     let session = " AM ";
 
+    //for making 12 hour format
+    if(hour > 12){
+        hour -= 12;
+        session=" PM ";
+    }
     //make double digit
     hour = hour < 10 ? "0"+hour : hour;
     minute = minute < 10 ? "0"+minute : minute;
