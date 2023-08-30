@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #c7ecee;
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+#heading-text{
+    font-size: 64px;
+    color: rgb(113, 18, 18);
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+#myTime{
+    background-color: white;
+    display: inline-block;
+    padding: 30px;
+    margin: 0 37%;
+}
